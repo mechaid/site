@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "id-id"
 title = "Kampus Tanpa Drop Out"
+
+[permalinks]
+    about = "/:sections/:title/"

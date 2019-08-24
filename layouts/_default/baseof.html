@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>{{ block "title" .  }}
     {{ .Site.Title  }}
     {{ end  }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
+    <title>mecha.id - Kampus Zero Dropout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js" integrity="sha256-D+2/goqcjnuoryb9A0rifuH0rBYS9hKOzNqG91JhAVc=" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Code that all your templates share, like a header -->
+    {{ partial "header/header.html" . }}
     {{ block "main" .  }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end  }}
     {{ block "footer" .  }}
-      <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+        <footer class="footer" id="footer">
+            <div class="content has-text-centered">
+                <p>
+                    MECHA.ID - 2019<br>
+                    Profil | Visi Misi | Staf
+                </p>
+            </div>
+        </footer>
     {{ end  }}
   </body>
 </html>
