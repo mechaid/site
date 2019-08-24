@@ -1,5 +1,6 @@
 ---
 title: "Open Learning Mecha.id"
+type: "courses-home"
 ---
 
 ### Wajib
