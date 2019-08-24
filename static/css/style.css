@@ -11,12 +11,14 @@ a.navbar-item, a.navbar-item:hover {
 
 h1, h2 {
     color: #ffeeaa;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
 }
 
 h3 {
     color: #ccc;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
 }
 
 .table {
@@ -186,22 +188,26 @@ body {
     min-height: 100%;
 }
 
+h1, h2, h3 {
+    padding-bottom: 0.3em;
+    line-height: 1.25em;
+    margin-bottom: 0.75em;
+}
+
 h1 {
     font-size: 2em;
-    text-transform: uppercase;
-    margin-bottom: 0.75em;
+    /* text-transform: uppercase; */
+    border-bottom: 1px solid #333333;
 }
 
 h2 {
-    font-size: 2em;
-    text-transform: uppercase;
-    margin-bottom: 0.75em;
+    font-size: 1.75em;
+    /* text-transform: uppercase; */
+    border-bottom: 1px solid #333333;
 }
 
 h3 {
-    text-transform: uppercase;
-    margin-bottom: 0.75em;
-    font-weight: bold;
+    /* text-transform: uppercase; */
 }
 
 ul {
@@ -256,7 +262,7 @@ table thead th {
     padding: 0em;
 }
 
-#top-header h1 {
+#top-header .column {
     text-align: center;
 }
 
@@ -306,11 +312,6 @@ nav#top-navigation .navbar-item:last-child {
 
 #main-navigation-section {
     padding: 0.75em 0em;
-    min-height: 44px;
-}
-
-nav#main-navigation {
-    min-height: 44px;
 }
 
 div#main-navigation-parent-column {
@@ -318,11 +319,25 @@ div#main-navigation-parent-column {
     padding-top: 0em;
 }
 
+nav#main-navigation {
+    min-height: 48px;
+    height: 48px;
+}
+
+nav#main-navigation .navbar-brand {
+}
+
+nav#main-navigation .navbar-menu {
+}
+
+nav#main-navigation .navbar-start {
+}
+
 nav#main-navigation .navbar-item {
     justify-content: center;
     border-right: 1px solid #1a1a1a;
     text-transform: uppercase;
-    min-width: 160px;
+    min-width: 140px;
 }
 
 nav#main-navigation .navbar-dropdown > .navbar-item {
@@ -356,7 +371,7 @@ and (min-device-width: 769px) {
         padding: 2em;
     }
 
-    #top-header h1 {
+    #top-header .column {
         text-align: left;
     }
 

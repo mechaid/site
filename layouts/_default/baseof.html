@@ -6,7 +6,6 @@
     {{ end  }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
-    <title>mecha.id - Kampus Zero Dropout</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Condensed&display=swap" rel="stylesheet">
@@ -16,7 +15,10 @@
   </head>
   <body>
     <!-- Code that all your templates share, like a header -->
-    {{ partial "header/header.html" . }}
+    {{ block "header" .  }}
+        {{ partial "header/header.html" . }}
+    {{ end  }}
+
     {{ block "main" .  }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end  }}

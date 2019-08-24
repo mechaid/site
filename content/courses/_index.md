@@ -1,5 +1,5 @@
 ---
-title: "Materi Kuliah"
+title: "Open Learning Mecha.id"
 ---
 
 ### Wajib
