@@ -8,3 +8,5 @@ title: "Matematika Untuk Sains Data"
 * [Optimasi Berkelanjutan](/courses/matematika-untuk-ml/optimasi-berkelanjutan/) 
 * [Statistika](/courses/matematika-untuk-ml/statistika/) 
 * [Probabilitas dan Distribusi](/courses/matematika-untuk-ml/probabilitas-dan-distribusi/) 
+
+* tanh

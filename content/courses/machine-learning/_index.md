@@ -2,4 +2,7 @@
 title: "Machine Learning"
 ---
 
-Halo
+* overfitting
+* dataset
+    * dataset-dataset yang terkenal
+    * augmentasi dataset
