@@ -12,6 +12,7 @@ a.navbar-item, a.navbar-item:hover {
 h1, h2 {
     color: #ffeeaa;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     /* font-family: 'Ubuntu Condensed', sans-serif; */
 }
 
@@ -56,6 +57,15 @@ a:hover, .table a:hover {
 
 .background-light-pink {
     background: #ffd5e5;
+}
+
+.background-lighter {
+    background-color: #ffffff11;
+}
+
+article.message .message-body {
+    border-left-color: #ffd5e5;
+    color: #ccc;
 }
 
 #top-section {
@@ -201,7 +211,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     /* text-transform: uppercase; */
     border-bottom: 1px solid #333333;
 }
@@ -246,6 +256,14 @@ a.icon-ai, a.icon-robot, a.icon-data, a.icon-iot {
 
 .section {
     padding-top: 2rem;
+}
+
+article.message {
+    border-radius:0em;
+}
+
+article.message .message-body {
+    border-radius:0em;
 }
 
 table {
