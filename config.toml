@@ -1,6 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://mecha.id/"
 languageCode = "id-id"
 title = "Kampus Zero Drop Out"
+enableRobotsTXT = true
+canonifyURLs = true
 
 [permalinks]
     about = "/:sections/:title/"
