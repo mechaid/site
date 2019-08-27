@@ -1,7 +1,3 @@
 [submodule "themes/xmag"]
 	path = themes/xmag
 	url = https://github.com/yihui/hugo-xmag.git
-[submodule "public"]
-	path = public
-	url = git@github.com:mechaid/mechaid.github.io.git
-	branch = master
