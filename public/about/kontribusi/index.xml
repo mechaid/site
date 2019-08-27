@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontribusi on Kampus Zero Drop Out</title>
+    <link>https://mecha.id/about/kontribusi/</link>
+    <description>Recent content in Kontribusi on Kampus Zero Drop Out</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sat, 24 Aug 2019 14:08:44 +0700</lastBuildDate>
+    
+	<atom:link href="https://mecha.id/about/kontribusi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Layanan</title>
+      <link>https://mecha.id/about/kontribusi/layanan/</link>
+      <pubDate>Sat, 24 Aug 2019 14:08:44 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/layanan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Musik</title>
+      <link>https://mecha.id/about/kontribusi/musik/</link>
+      <pubDate>Sat, 24 Aug 2019 14:08:37 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/musik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector Packs</title>
+      <link>https://mecha.id/about/kontribusi/vector-packs/</link>
+      <pubDate>Sat, 24 Aug 2019 14:08:28 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/vector-packs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Buku</title>
+      <link>https://mecha.id/about/kontribusi/buku/</link>
+      <pubDate>Sat, 24 Aug 2019 14:07:23 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/buku/</guid>
+      <description>tes</description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>https://mecha.id/about/kontribusi/dataset/</link>
+      <pubDate>Sat, 24 Aug 2019 14:07:19 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Code</title>
+      <link>https://mecha.id/about/kontribusi/source-code/</link>
+      <pubDate>Sat, 24 Aug 2019 14:07:08 +0700</pubDate>
+      
+      <guid>https://mecha.id/about/kontribusi/source-code/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
